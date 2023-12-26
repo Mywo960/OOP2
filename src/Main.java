@@ -13,7 +13,7 @@ public class Main {
         if (isMac(inputMac)) {
             System.out.println("Введенный MAC-адрес является правильным.");
         } else {
-            System.out.println("Введенный MAC-адрес не является правильным.");
+            System.out.println("Введенный MAC-адрес является не правильным.");
         }
 
         scanner.close();
